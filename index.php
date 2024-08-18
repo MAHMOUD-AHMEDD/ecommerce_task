@@ -40,6 +40,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     <?php
     if(isset($products)&&sizeof($products)>0){
         ?>
+            <h1 class="text-center text-primary">Products</h1>
         <table class="table table-hover table-bordered table-striped">
             <thead>
             <tr>
@@ -74,6 +75,8 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         ?>
 <!--    -->
 <!--    -->
+    <br>
+    <h1 class="text-center text-primary">Users</h1>
     <?php
     if(isset($users)&&sizeof($users)>0){
         ?>
@@ -112,6 +115,8 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     ?>
 <!--    -->
 <!--    -->
+    <br>
+    <h1 class="text-center text-primary">Suppliers</h1>
     <?php
     if(isset($suppliers)&&sizeof($suppliers)>0){
         ?>
@@ -148,6 +153,8 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     ?>
 <!--    -->
 <!--    -->
+    <br>
+    <h1 class="text-center text-primary">Orders</h1>
     <?php
     if(isset($orders)&&sizeof($orders)>0){
         ?>
