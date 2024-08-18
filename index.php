@@ -48,7 +48,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                 <td>discount</td>
                 <td>Name</td>
                 <form method="post">
-                <td><button class="btn btn-primary">sort by price</button></td>
+                <td><button class="btn btn-primary">sort</button></td>
                 </form>
             </tr>
             </thead>
@@ -86,7 +86,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                 <td>phone</td>
                 <td>type</td>
                 <form method="post">
-                    <td><button class="btn btn-primary">sort by price</button></td>
+                    <td><button class="btn btn-primary">sort</button></td>
                 </form>
             </tr>
             </thead>
@@ -122,7 +122,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                 <td>phone</td>
                 <td>email</td>
                 <form method="post">
-                    <td><button class="btn btn-primary">sort by price</button></td>
+                    <td><button class="btn btn-primary">sort</button></td>
                 </form>
             </tr>
             </thead>
@@ -158,7 +158,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
                 <td>order_address</td>
                 <td>time_ordered</td>
                 <form method="post">
-                    <td><button class="btn btn-primary">sort by price</button></td>
+                    <td><button class="btn btn-primary">sort</button></td>
                 </form>
             </tr>
             </thead>
